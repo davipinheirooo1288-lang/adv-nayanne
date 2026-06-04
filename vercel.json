@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run validate",
+  "outputDirectory": "public",
+  "cleanUrls": true
+}

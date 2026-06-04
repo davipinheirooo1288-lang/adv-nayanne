@@ -1,0 +1,126 @@
+PROMPT MASTER - LANDING PAGE COM TEMPLATES PRONTOS
+
+Use este prompt quando eu enviar uma pasta de cliente com templates/imagens ja prontas e pedir uma landing page.
+
+PROMPT:
+
+Quero que voce crie uma landing page profissional e funcional usando os templates que ja estao na pasta do projeto.
+
+O objetivo NAO e redesenhar a identidade visual. O objetivo e fazer exatamente o que fizemos no projeto "Gessica Maia Advocacia": preservar a identidade premium dos templates, transformar tudo em uma landing page completa, responsiva, funcional, sem bugs, publicar no GitHub/Vercel quando eu pedir, e validar de verdade.
+
+REGRAS PRINCIPAIS:
+
+1. Preserve a identidade visual dos templates.
+- Nao troque paleta, tipografia visual, composicao, fotos, ordem visual, estilo grafico ou identidade.
+- Nao invente um novo layout se os templates ja definem o visual.
+- Se os templates estiverem em PNG/JPG/PDF, use eles como base visual fiel.
+- Se for melhor para preservar o visual, use cada template como uma secao visual completa da landing.
+- O site final precisa parecer igual aos templates, so que funcional.
+
+2. A landing page precisa estar completa.
+- Nenhuma tela/template pode ficar faltando.
+- Nao deixar partes cortadas sem intencao.
+- Nao deixar bordas brancas laterais.
+- Nao deixar espacos vazios estranhos entre secoes.
+- Nao deixar scroll horizontal.
+- Nao deixar scroll duplo. Quero apenas a barra normal do navegador para subir e descer.
+
+3. Funcionalidade real.
+- Todos os botoes visiveis nos templates devem virar areas clicaveis reais.
+- WhatsApp deve abrir com mensagem pronta e contextual.
+- Instagram, email, site, telefone e Google Maps devem abrir nos links corretos.
+- Se eu mandar link de Maps, use exatamente o Maps correto.
+- Se houver cards de servicos/areas, cada um deve poder mandar mensagem especifica no WhatsApp.
+- Nao deixe botao decorativo sem funcao quando ele parecer clicavel.
+
+4. Mobile e responsividade.
+- O site precisa funcionar bem no celular e desktop.
+- A landing precisa ocupar a largura correta da tela.
+- Sem overflow lateral.
+- Sem barra duplicada.
+- Sem texto/elemento sobrepondo de forma bugada.
+- Se usar imagens de template como secoes, mantenha proporcao correta e garanta carregamento bom.
+
+5. Animacoes premium, sem bug.
+- Adicione animacoes de entrada suaves e profissionais.
+- As animacoes nao podem ser todas iguais.
+- Varie por secao: fade, leve subida, entrada lateral, escala sutil, brilho discreto, etc.
+- Animacoes devem respeitar prefers-reduced-motion.
+- Nao use animacao que crie barra lateral, tremedeira, cortes feios ou scroll duplicado.
+- Em botoes/areas clicaveis, adicione hover premium discreto, sem mudar a identidade visual.
+- Nao use efeitos exagerados se comprometerem a leitura ou fidelidade do template.
+
+6. SEO e acessibilidade sem mudar o visual.
+- Manter o visual igual ao template, mas adicionar camada semantica escondida quando necessario.
+- Ter title, meta description, alt nas imagens, H1 unico e estrutura semantica.
+- Criar schema JSON-LD quando fizer sentido, principalmente para negocios locais, clinicas, escritorios, restaurantes etc.
+- Se eu mandar PDFs/documentos da cliente, use para SEO/schema/dados internos, mas nao mude o texto visivel do template sem eu pedir.
+
+7. Organizacao dos arquivos.
+- Para site estatico, usar HTML/CSS/JS puro, sem framework, a menos que eu peca.
+- Estrutura recomendada:
+  - public/index.html
+  - public/styles.css
+  - public/script.js
+  - public/assets/
+  - docs/template-original/
+  - scripts/validate-site.mjs
+  - package.json
+  - vercel.json
+- Imagens finais otimizadas devem ficar em public/assets/.
+- Templates originais devem ficar em docs/template-original/.
+- Arquivos antigos ou nao usados devem ser removidos ou movidos para docs, para nao confundir.
+- O que nao deve aparecer no site publicado nao deve ficar dentro de public/.
+
+8. Validacao obrigatoria antes de dizer que terminou.
+- Rodar validacao local, por exemplo npm run lint/build.
+- Testar em navegador real ou Playwright.
+- Verificar desktop e mobile.
+- Verificar:
+  - todas as secoes existem;
+  - imagens carregam;
+  - links principais funcionam;
+  - sem erros no console;
+  - sem overflow horizontal;
+  - sem scroll duplo;
+  - animacoes aparecem e nao quebram o layout;
+  - barra de rolagem e a normal do navegador.
+
+9. GitHub e Vercel, quando eu pedir para subir.
+- Inicializar Git se a pasta ainda nao for repo.
+- Configurar remote do GitHub que eu mandar.
+- Fazer commit claro.
+- Push na branch main.
+- Configurar Vercel corretamente para publicar public/.
+- Se der erro de output directory, corrigir com vercel.json.
+- Validar o site publicado, nao apenas o build local.
+- No final, me entregar:
+  - link do GitHub;
+  - commit final;
+  - link da Vercel;
+  - resumo das validacoes.
+
+10. O mais importante.
+- Antes de mudar visual, pergunte ou preserve.
+- Quando eu falar "igual aos templates", entenda literalmente: igual a identidade visual dos templates.
+- Seu trabalho e transformar o template em site funcional, profissional, responsivo, animado e publicado, nao criar outro design.
+- Se eu reclamar de algo visual, corrija de forma cirurgica e valide, sem mexer no restante.
+
+DADOS DO CLIENTE PARA PREENCHER EM CADA PROJETO:
+
+- Nome do cliente:
+- Pasta do projeto:
+- Arquivos/template base:
+- WhatsApp:
+- Instagram:
+- Email:
+- Site:
+- Endereco:
+- Google Maps:
+- Areas/servicos:
+- Repositorio GitHub:
+- Dominio ou link Vercel desejado:
+
+COMANDO FINAL:
+
+Agora execute tudo de ponta a ponta: analise os templates, preserve a identidade visual, deixe a landing completa e funcional, adicione animacoes premium sem bugs, organize os arquivos, valide desktop/mobile e, se eu tiver mandado GitHub/Vercel, publique e valide o site online.

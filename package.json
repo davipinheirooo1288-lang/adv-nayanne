@@ -1,0 +1,12 @@
+{
+  "name": "nayanne-lis-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "browser-check": "node scripts/browser-check.mjs",
+    "convert:webp": "node scripts/convert-assets-webp.mjs",
+    "validate": "node scripts/validate-site.mjs",
+    "serve": "node scripts/serve-site.mjs"
+  }
+}
