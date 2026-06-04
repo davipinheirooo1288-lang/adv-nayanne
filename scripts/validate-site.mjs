@@ -74,9 +74,9 @@ assert(Array.isArray(jsonLd), "JSON-LD deve ser uma lista com LegalService e FAQ
 assert(jsonLd.some((item) => item["@type"] === "LegalService"), "Schema LegalService ausente");
 assert(jsonLd.some((item) => item["@type"] === "FAQPage"), "Schema FAQPage ausente");
 
-assert(html.includes('<link rel="canonical" href="https://seudominio.com/"'), "Canonical final/placeholder ausente");
-assert(html.includes('property="og:image" content="https://seudominio.com/assets/'), "Meta OG image absoluta ausente");
-assert(html.includes('"url": "https://seudominio.com/"'), "URL do JSON-LD ausente");
+assert(html.includes('<link rel="canonical" href="https://adv-nayanne.vercel.app/"'), "Canonical final ausente");
+assert(html.includes('property="og:image" content="https://adv-nayanne.vercel.app/assets/'), "Meta OG image absoluta ausente");
+assert(html.includes('"url": "https://adv-nayanne.vercel.app/"'), "URL do JSON-LD ausente");
 assert(html.includes("nayannelisadvocacia"), "Instagram real ausente");
 assert(html.includes("5577998050796") || js.includes("5577998050796"), "WhatsApp real ausente");
 assert(html.includes("Google%20Maps") || html.includes("maps/search"), "Maps de busca ausente");

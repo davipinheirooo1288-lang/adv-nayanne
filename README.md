@@ -13,14 +13,11 @@ Landing page estatica criada a partir dos templates fornecidos na pasta do proje
 - `scripts/serve-site.mjs`: servidor local sem dependencias.
 - `scripts/convert-assets-webp.mjs`: conversao dos assets PNG para WebP usando Chrome local.
 
-## Antes de publicar
+## Publicacao
 
-Troque `https://seudominio.com/` pelo dominio final em:
+Publicado em:
 
-- canonical;
-- `og:url`;
-- `og:image`;
-- `url` e `image` do JSON-LD.
+- https://adv-nayanne.vercel.app/
 
 ## Comandos
 
